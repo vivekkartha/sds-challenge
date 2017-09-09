@@ -11,7 +11,7 @@ object CaesarCipher {
     if (key in 1..26) {
       println(cipher(inputText, key))
     } else
-      println("Key error")
+      println("Please enter a key between 1 and 26")
   }
 
   private fun cipher(inputText: String, key: Int): String {
