@@ -14,6 +14,10 @@ object CaesarCipher {
       println("Please enter a key between 1 and 26")
   }
 
+  /**
+   * @param inputText the input supplied
+   * return cipher text
+   */
   private fun cipher(inputText: String, key: Int): String {
     var outputText = ""
     for (c in inputText.toCharArray()) {
